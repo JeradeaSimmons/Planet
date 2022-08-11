@@ -9,7 +9,7 @@ export const StarSchema = new Schema({
     name: { type: String, required: true },
     description: { type: String, required: true },
 
-    galaxyId: { type: Object.id, required: true, ref: Galaxy }
+    galaxyId: { type: Object.id, required: true, ref: 'Galaxy' }
 
 
 

@@ -5,7 +5,9 @@ const Schema = mongoose.Schema
 export const GalaxySchema = new Schema({
 
     name: { type: String, required: true, maxlength: 20 },
-    description: { type: String, required: true, maxlength: 100 }
+    description: { type: String, required: true, maxlength: 100 },
+
+
 },
 
 
